@@ -8,7 +8,7 @@ console.log(`The ${this.species} make a sound`)
 }
 }
 
-class Dog extends Animal {
+class Cat extends Animal {
 	constructor(species){
     super(species);
 }
@@ -16,7 +16,7 @@ purr(){
 console.log("purr")
 }
 }
-class Cat extends Animal {
+class DOG extends Animal {
 	constructor(species){
 super(species);
 
@@ -25,6 +25,7 @@ super(species);
 console.log("woof")
 	}
 }
+
 
 // Do not change the code below this line
 window.Animal = Animal;
